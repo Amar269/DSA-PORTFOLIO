@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Croissant One', cursive;
+}
+
+body {
+    background-color:#081b29;
+    color: #ededed;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    top:0;
+    left:0;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(174, 141, 139);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: gainsboro;
+    font-size: 1.14rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+#color{
+    color: #081b29;
+}
+
+#Sector1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+#Sector1>div {
+    width: 38%;
+}
+.leftsection {
+    margin-top: 90px;
+    width: max-content;
+}
+
+.rightsection{
+    width:auto;
+    align-items: center;
+}
+
+.rightsection>img{
+    width:100%
+}
+
+#Color{
+    color: lightgreen;
+}
+
+main hr{
+    border:0;
+    background: lightslategray;
+    height:1.0px;
+    margin: 30px 90px;
+}
+
+#first{
+    text-align:center;
+}
+#first.content{
+    padding: 60px 0;
+}
+
+.content>img{
+    width:60%;
+    margin: auto;
+}
+
+#second{
+    text-align: center;
+}
+
+.content2 >img{
+    width:50%;
+}
+
+#first a{
+    font-size: 20px;
+    line-height: 70px;
+    display: inline-block;
+    color:#ffffff;
+}
+
+.certificate-container {
+    padding-left: 20vh;
+    height:max-content;
+    text-align:center;
+    width: 200vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.certificates {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.certificate {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.certificate img {
+    width: 500px;
+    height: auto;
+}
+
+#four{
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style: none;
+    padding: 30px;
+    white-space: nowrap; /* Prevents line breaks */
+}
+
+li {
+    font-size: large;
+    display: inline block; /* Display list items in a horizontal line */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+.content4{
+    text-align: center;
+}

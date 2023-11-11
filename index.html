@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a>Amarnath</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#second">About</a></li>
+                    <li><a href="#third">Skills</a></li>
+                    <li><a href="dsa.html" target="_blank"> DSA</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="first">
+            <div class="leftsection">
+                Hello Everyone!
+                <div>I'm</div>
+                <span class="color">Amarnath</span>
+                <br>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="me.jpg"/>
+            </div>
+        </section>
+        <hr>
+        <section id="second">
+            <div class="rightsection2">
+                <br>
+                <br>
+                <h1 style ="font-size: 45px;">About</h1>
+                <br>
+                <br>
+                <p style="font-size: 24px;"> Hello! I'm Amarnath Kolla, a B.Tech second-year student at SRM University, KTR Campus, Chennai. I specialize in Cloud Computing and aspire to be a Cloud Engineer. My interests include C++, AWS, and HTML coding</p>
+                       
+                        <ul>
+                            <li>FIRST YEAR CGPA : 7.90</li>
+                            <li>MAIL ID : amarrama269@gmail.com</li>
+                            <li>UNVERSITY MAIL ID : ak4909@srmist.edu.in</li>
+                            <li>github : <a href="https://github.com/Amar269" >LINK</a></li>
+                            <li>Linkedin :  <a href="https://www.linkedin.com/in/kolla-amarnath-44595b264/">LINK</a></li>
+                        </ul>
+
+            </div> 
+        </section>
+        <hr>
+        <section id="third">
+            <h1 style="font-size: xx-large; text-align: center;" >My Skills</h1>
+            <br>
+            <br>
+            <section id="skills">
+                <ul>
+                    <li>AWS</li>
+                    <li>C/C++</li>
+                    <li>HTML</li>
+                    <li>Photo/Video Editor</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </section>
+        </section>
+        <hr>
+        <section id="certifications">
+            <h1 style="font-size: xx-large; text-align: center;" >My Certifications</h1>
+            <div class="certification-card">
+                <img src="gcp.jpg" alt="Cloud Skill Boost">
+                <a href="" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification-card">
+                <img src="aws1.jpg" alt="Cloud Foundations">
+                <a href="" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification-card">
+                <img src="c.jpg" alt="C Programming">
+                <a href="" target="_blank">View Certificate</a>
+            </div>
+        </section>
+        <section id="Contact">
+            <h2 style="font-size: xx-large;" >Contact <span class="color">Me!</span></h2>
+            <form>
+                <div class="input-box name">
+                    <div class="input-field">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" placeholder="Mobile Number" required>
+                    </div>
+                    <div class="input-field">
+                        <textarea type="text" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Cloud Engineer','UI/UX Designer'],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+</html>
